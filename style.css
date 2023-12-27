@@ -1,5 +1,6 @@
 body{
     color: white;
+    background-color: #1E1E1E;
 }
 
 .navbar ul{
@@ -68,10 +69,100 @@ text-align: left;
 display: block;
 }
 
+.navbar { 
+  width: 100vw; 
+  height: 100vh; 
+ 
+  color: black; 
+  font-weight: bold; 
+} 
 
-.img-container{
-    background-image: url("https://www.allbusiness.com/asset/2018/10/machine-learning-300x235.jpg");
-    background-size: cover;
-    height: 100vh;
-    opacity: 0.5;
+.navbar::before{
+  content: '';
+  background: url();
+  position:absolute;
+  top:0px;
+  left:0px;
 }
+
+.navbar::before { 
+  content: ''; 
+  background: url("Images/background.jpg")  
+      no-repeat center center/cover; 
+  position: absolute; 
+  opacity: 0.5; 
+  top: 0px; 
+  left: 0px; 
+  width: 100vw; 
+  height: 100vh; 
+  z-index: -1; 
+} 
+
+.navbarcont{
+  height: 66%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.navbarcont h1{
+  font-size: 3.6rem;
+  color: transparent;
+  -webkit-text-stroke: yellow;
+  -webkit-text-stroke-width: 2px;
+}
+
+.divein{
+  background-color: red;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 20px;
+  font-size: 1.2rem;
+}
+
+.fed1{
+  width: 90%;
+  margin: 0 auto;
+  
+}
+
+.fed2{
+ 
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+.fed1 h1{
+  font-size: 3.6rem;
+  font-family: karantina;
+  letter-spacing: 4px;
+}
+
+.fed2 p{
+  font-size: 2.2rem;
+  font-family: habibi;
+}
+
+.fed3{
+  margin: 120px 0;
+}
+
+.step h2{
+  font-family: Keania One;
+  font-size: 3.8rem;
+  text-align: center;
+}
+
+.stepcont h1{
+ font-size: 4rem;
+ color: orange;
+ letter-spacing: 0.5rem;
+ text-decoration-line: underline;
+}
+
