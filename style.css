@@ -89,7 +89,10 @@ display: block;
   content: ''; 
   background: url("Images/background.jpg")  
       no-repeat center center/cover; 
-  position: absolute; 
+  position: absolute;
+  background-position:center; 
+  background-size: cover;
+  background-repeat: no-repeat;
   opacity: 0.5; 
   top: 0px; 
   left: 0px; 
@@ -159,6 +162,7 @@ display: block;
   text-align: center;
 }
 
+
 .stepcont h1{
  font-size: 4rem;
  color: orange;
@@ -166,3 +170,21 @@ display: block;
  text-decoration-line: underline;
 }
 
+
+/* .whole-container{
+  height: 100vh;
+  scroll-snap-type:y mandatory;
+  overflow-y: scroll;
+}
+.fed1{
+  height: 100vh;
+  scroll-snap-align: start;
+} */
+
+.foot{
+  margin-top: 100px;
+  width: 100%;
+  padding: 30px;
+  background-color: #3b2d2d;
+  text-align: center;
+}
