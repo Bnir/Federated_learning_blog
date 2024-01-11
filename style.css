@@ -193,7 +193,7 @@ display: block;
     width:600px;
 }
 
-@media (width<800px) {
+@media (width<=800px) {
     .fed2{
         flex-direction: column;
     }
