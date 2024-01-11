@@ -190,7 +190,7 @@ display: block;
 }
 
 .fed2 img{
-    width:400px;
+    width:600px;
 }
 
 @media (width<800px) {
@@ -198,6 +198,6 @@ display: block;
         flex-direction: column;
     }
     .fed2 img{
-        width: 300px;
+        width: 400px;
     }
 }
