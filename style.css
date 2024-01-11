@@ -188,3 +188,16 @@ display: block;
   background-color: #3b2d2d;
   text-align: center;
 }
+
+.fed2 img{
+    width:400px;
+}
+
+@media (width<800px) {
+    .fed2{
+        flex-direction: column;
+    }
+    .fed2 img{
+        width: 300px;
+    }
+}
