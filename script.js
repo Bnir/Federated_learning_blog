@@ -1,5 +1,6 @@
 let soon = document.getElementById('navbarid');
 
+
 soon.addEventListener("click", function (event) {
     let clicked = event.target;
     if (clicked.tagName === "A") {
